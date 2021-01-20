@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: gainsboro;
+}
+.form{
+    width: 700px;
+    
+}
+.form .section{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin:10px;
+}
+.form .content h3{
+    font-weight: 600;
+    padding: 12px;
+}
+.form .content p{
+    width: 550px;
+    padding-left: 15px; 
+}
+.form .content span{
+    color:orangered;
+    padding-left: 15px;
+}
+
+form .section label{
+    font-size: 110%;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+form .section span{
+    color: orangered;
+    padding: 5px;
+}
+form .section input{
+    width: 400px;
+    padding: 7px 0px;
+    border: none;
+    border-bottom:1px solid grey;
+    border-radius: none;
+}
+form .section select{
+   border: 1px solid darkgray;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color:dimgray;
+    font-weight: 500;
+    font-size: 17px;
+}
+form .button{
+    padding: 15px;
+}
+form .button input{
+    font-weight: 500;
+    font-size: 19px;
+}
+form input[type="file"]{
+    border: none;
+}
+@media screen and (max-width:400px){
+    .form{
+    width: 550px;
+    
+}
+    .form .content p{
+    width: 450px;
+   
+}
+}
+
+@media screen and (max-width:576px){
+    .form{
+    width: 500px;
+    
+}
+    .form .content p{
+    width: 410px;
+   
+}
+        
+   
+}
+@media screen and (max-width:768px){
+        .form{
+    width: 500px;
+    
+}
+    .form .content p{
+    width: 410px;
+   
+}
+    
+}
